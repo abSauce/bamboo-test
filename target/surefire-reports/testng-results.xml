@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SampleSauceTest" duration-ms="5089" started-at="2021-07-12T11:34:24 CDT" finished-at="2021-07-12T11:34:29 CDT">
+  <suite name="SampleSauceTest" duration-ms="8092" started-at="2021-07-12T11:50:07 CDT" finished-at="2021-07-12T11:50:15 CDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="5089" started-at="2021-07-12T11:34:24 CDT" finished-at="2021-07-12T11:34:29 CDT">
+    <test name="Command line test" duration-ms="8092" started-at="2021-07-12T11:50:07 CDT" finished-at="2021-07-12T11:50:15 CDT">
       <class name="SampleSauceTest">
-        <test-method status="PASS" signature="openbrowser(java.lang.reflect.Method)[pri:0, instance:SampleSauceTest@13805618]" name="openbrowser" is-config="true" duration-ms="3899" started-at="2021-07-12T11:34:24 CDT" finished-at="2021-07-12T11:34:28 CDT">
+        <test-method status="PASS" signature="openbrowser(java.lang.reflect.Method)[pri:0, instance:SampleSauceTest@13805618]" name="openbrowser" is-config="true" duration-ms="6913" started-at="2021-07-12T11:50:07 CDT" finished-at="2021-07-12T11:50:14 CDT">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:SampleSauceTest@13805618]" name="Test" duration-ms="880" started-at="2021-07-12T11:34:28 CDT" finished-at="2021-07-12T11:34:29 CDT">
+        <test-method status="PASS" signature="Test()[pri:0, instance:SampleSauceTest@13805618]" name="Test" duration-ms="882" started-at="2021-07-12T11:50:14 CDT" finished-at="2021-07-12T11:50:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SampleSauceTest@13805618]" name="closeBrowser" is-config="true" duration-ms="260" started-at="2021-07-12T11:34:29 CDT" finished-at="2021-07-12T11:34:29 CDT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SampleSauceTest@13805618]" name="closeBrowser" is-config="true" duration-ms="263" started-at="2021-07-12T11:50:15 CDT" finished-at="2021-07-12T11:50:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

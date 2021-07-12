@@ -33,9 +33,16 @@ public class SampleSauceTest {
 	    driver = new RemoteWebDriver(new URL(sauceURL), caps);    	
 	}
 
+	private static void printSessionId() {
+   		String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s",
+    	(((RemoteWebDriver) driver).getSessionId()).toString(), "some job name");
+    	System.out.println(message);
+	}
+
 	@Test
 	public static void Test() throws InterruptedException {
 		driver.get("https://saucedemo.com");
+		printSessionId();
 	}
 
 	@AfterMethod
